@@ -1,5 +1,9 @@
 # OpenMMO
-A placeholder repo for a dream of mine - an open source MMO
+A placeholder repo for a dream of mine - an open source MMO.
+
+If you are interested in where this project goes or just want to lend me some encouragement, please Star this repo.
+
+If you would like to ask me questions, feel free to create an Issue on GitHub and I will respond reasonably quickly.
 
 ## Goals
 _roughly in priority order_
