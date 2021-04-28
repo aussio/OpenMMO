@@ -34,3 +34,6 @@ I theorize that the second largest reason hurdle is that for practical purposes 
 * Server-side libraries like [nodejs](https://nodejs.org/en/) are also battle-tested and fast.
 * Javascript is (arguably) [the most popular programming language in the world](https://insights.stackoverflow.com/survey/2020#technology-programming-scripting-and-markup-languages) and probably will be for the foreseeable future.
 * Javascript enables an easy path to the game being playable on the most-used platform in the world - an internet browser.
+
+## Documentation
+[Learning Resources](learning/RESOURCES.md)

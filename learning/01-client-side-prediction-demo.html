@@ -1,0 +1,65 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <style>
+        canvas {
+            border: dotted 1px;
+            padding: 0;
+            background: lightgray;
+        }
+
+    </style>
+    <!-- PLAYER 1 -->
+    <div style="border: 5px solid blue; padding: 15px; margin: 1em 0;">
+        <p>
+            <b>Player 1 view</b> - move with LEFT and RIGHT arrow keys<br />
+            Lag = <input id="player1_lag" onchange="updateParameters();" size="5" type="text" value="250" /> ms ·
+            <input id="player1_prediction" onchange="updateParameters();" type="checkbox" /> Prediction ·
+            <input id="player1_reconciliation" onchange="updateParameters();" type="checkbox" /> Reconciliation ·
+            <input id="player1_interpolation" onchange="updateParameters();" type="checkbox" /> Interpolation
+        </p>
+        <canvas height="75" id="player1_canvas" width="920"></canvas>
+        <div id="player1_status" style="font-family:courier;">
+            Waiting for connection…
+        </div>
+    </div>
+    <!-- SERVER -->
+    <div style="border: 2px solid grey; padding: 15px;">
+        <p>
+            <b>Server view</b>
+            · Update <input id="server_fps" onchange="updateParameters();" size="5" type="text" value="3" />
+            times per second
+        </p>
+        <canvas height="75" id="server_canvas" width="920"></canvas>
+        <div id="server_status" style="font-family:courier;"></div>
+    </div>
+    <!-- PLAYER 2 -->
+    <div style="border: 5px solid red; padding: 15px; margin: 1em 0;">
+        <p>
+            <b>Player 2 view</b> - move with LEFT and RIGHT arrow keys<br />
+            Lag = <input id="player2_lag" onchange="updateParameters();" size="5" type="text" value="250" /> ms ·
+            <input id="player2_prediction" onchange="updateParameters();" type="checkbox" /> Prediction ·
+            <input id="player2_reconciliation" onchange="updateParameters();" type="checkbox" /> Reconciliation ·
+            <input id="player2_interpolation" onchange="updateParameters();" type="checkbox" /> Interpolation
+        </p>
+        <canvas height="75" id="player2_canvas" width="920"></canvas>
+        <div id="player2_status" style="font-family:courier;">
+            Waiting for connection…
+        </div>
+    </div>
+
+    <script src="/01-client-side-prediction-demo.js"></script>
+
+    <br />
+    <hr />
+    <strong>Source: </strong>
+    <a href="https://gabrielgambetta.com/client-side-prediction-live-demo.html">https://gabrielgambetta.com/client-side-prediction-live-demo.html</a>
+
+
+</body>
+
+</html>
