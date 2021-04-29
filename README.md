@@ -36,4 +36,4 @@ I theorize that the second largest reason hurdle is that for practical purposes 
 * Javascript enables an easy path to the game being playable on the most-used platform in the world - an internet browser.
 
 ## Documentation
-[Learning Resources](learning/RESOURCES.md)
+[Learning Resources](docs/RESOURCES.md)
