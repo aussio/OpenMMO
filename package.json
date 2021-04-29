@@ -1,0 +1,36 @@
+{
+  "name": "openmmo",
+  "version": "0.0.1",
+  "description": "An open source MMO framework",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aussio/OpenMMO.git"
+  },
+  "keywords": [
+    "mmo",
+    "gamedev",
+    "threejs",
+    "games",
+    "multiplayer",
+    "networking"
+  ],
+  "author": "Austin Curtis",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/aussio/OpenMMO/issues"
+  },
+  "homepage": "https://github.com/aussio/OpenMMO#readme"
+}
